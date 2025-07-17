@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Review</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page-bg">
+  <div class="leaf-decor"></div>
+  <div class="container">
+
+   <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">BiteWise 🍽️</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="submit.html">Submit</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="auth.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1>Submit Your Review 📝</h1>
+  <form id="reviewForm" onsubmit="return validateForm()">
+    <input type="text" name="name" placeholder="Your Name"><br>
+    <input type="text" name="dish" placeholder="Dish Name"><br>
+    <input type="text" name="rating" placeholder="Emoji Rating"><br>
+    <textarea name="comment" placeholder="Your Comment"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="assets/js/rating.js"></script>
+  
+     </div>
+</div>
+</body>
+</html>

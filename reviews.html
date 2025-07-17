@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Reviews</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page-bg">
+  <div class="leaf-decor"></div>
+  <div class="container">
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">BiteWise 🍽️</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="submit.html">Submit</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="auth.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Food Reviews 🍴</h1>
+    <nav>
+      <button onclick="filterFood('all')">All</button>
+      <button onclick="filterFood('dessert')">Desserts</button>
+      <button onclick="filterFood('meal')">Meals</button>
+      <button onclick="filterFood('drink')">Drinks</button>
+    </nav>
+  </header>
+  <section id="foodGrid">
+    <div class="food-card" data-type="dessert">🍰 Cake - 🤩</div>
+    <div class="food-card" data-type="meal">🍔 Burger - 😐</div>
+    <div class="food-card" data-type="drink">🥤 Soda - 😖</div>
+  </section>
+  <script src="assets/js/filter.js"></script>
+  
+     </div>
+</div>
+</body>
+</html>
